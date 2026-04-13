@@ -1,9 +1,9 @@
+let lamp = document.getElementById("lamp");
+let btn = document.getElementById("btn");
+
 let isOn = false;
 
 function toggleLamp() {
-    const lamp = document.getElementById("lamp");
-    const btn = document.getElementById("btn");
-
     if (isOn) {
         lamp.src = "images/light-off.png";
         btn.innerText = "Turn ON";
